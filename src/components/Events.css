@@ -1,0 +1,9 @@
+.events-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.events-container>div{
+  margin: 10px;
+}

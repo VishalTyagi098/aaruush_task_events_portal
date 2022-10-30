@@ -1,0 +1,22 @@
+.footer-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-img{
+  margin-right: auto;
+}
+
+.footer-social{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.footer-social>div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
