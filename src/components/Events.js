@@ -1,5 +1,7 @@
 import React from 'react'
 import monoact from '../images/monoact.webp'
+import reroute from '../images/reroute.webp'
+import roboleague from '../images/roboleague.webp'
 import './Events.css'
 
 function Events() {
@@ -9,13 +11,13 @@ function Events() {
 
       <div className="events-img">
         <div className="">
-          <img src={monoact} alt="" height={300}/>
+          <img src={monoact} alt="" height={400}/>
         </div>
         <div className="">
-          <img src={monoact} alt="" height={300}/>
+          <img src={reroute} alt="" height={400}/>
         </div>
         <div className="">
-          <img src={monoact} alt="" height={300}/>
+          <img src={roboleague} alt="" height={400}/>
         </div>
       </div>
       

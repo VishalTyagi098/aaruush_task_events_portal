@@ -1,0 +1,12 @@
+.register-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.register-title{
+  font-size: 50px;
+  height: 20vh;
+  font-weight: 600;
+}
