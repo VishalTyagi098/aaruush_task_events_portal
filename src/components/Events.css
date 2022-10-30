@@ -1,9 +1,24 @@
 .events-container{
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.events-title{
+  font-size: 50px;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.events-img{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.events-container>div{
-  margin: 10px;
+.events-img>div>img{
+  border-radius: 20px;
+  margin: 10px 30px;
 }

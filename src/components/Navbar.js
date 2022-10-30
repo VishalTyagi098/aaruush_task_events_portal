@@ -8,12 +8,12 @@ function Navbar() {
 
       <div className="nav-title">
         <img src={aaruushLogo} alt="" />
-        <div className="nav-title-text">Event Management '22</div>
+        <div className="nav-title-text"><a href="https://aaruush.org/">Event Management '22</a> </div>
       </div>
 
       <div className="nav-links">
         <div>Events</div>
-        <button>Register</button>
+        <button className='nav-btn'>Register</button>
       </div>
 
     </div>

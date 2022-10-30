@@ -1,5 +1,50 @@
 .register-card-container{
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 40px 0;
+  background: #05051A;
+  padding: 30px;
+  border-radius: 40px;
+}
+
+.img-container>img{
+  border-radius: 40px;
+}
+
+.text-container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+  padding: 20px;
+}
+
+.text-container>div{
+  margin: 30px 0;
+}
+
+.text-title{
+  font-size: 50px;
+  font-weight: 600;
+}
+.text-para{
+  font-size: 20px;
+}
+.text-fees{
+  font-size: 30px;
+}
+
+.register-btn{
+  background-color: #313060;
+  padding: 10px 20px;
+  border-radius: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.register-btn:hover{
+  background-color: #5959cc;
+  cursor: pointer;
 }

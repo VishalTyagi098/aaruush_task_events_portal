@@ -9,14 +9,16 @@ function Footer() {
     <div className='footer-container'>
 
       <div className="footer-img">
-        <img src={footer} alt="" height={100}/>
+        <a href="https://aaruush.org/"><img src={footer} alt="" height={100}/></a>
+        
       </div>
 
       <div className="footer-social">
 
         <div className="">
           <img src={instagram} alt="" height={40}/>
-          aaruush_srm
+          <a href="https://www.instagram.com/aaruush_srm/">aaruush_srm</a>
+          
         </div>
 
         <div className="">

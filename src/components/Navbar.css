@@ -1,7 +1,9 @@
 .nav-container{
+  height: 15vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 20px;
 }
 
 .nav-title{
@@ -11,8 +13,35 @@
   margin-right: auto;
 }
 
+.nav-title>img{
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.nav-title>div>a{
+  text-decoration: none;
+  color: white;
+}
+
 .nav-links{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.nav-links>div{
+  margin-right: 20px;
+}
+
+.nav-btn{
+  background-color: #313060;
+  padding: 10px 20px;
+  border-radius: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.nav-btn:hover{
+  background-color: #5959cc;
+  cursor: pointer;
 }
